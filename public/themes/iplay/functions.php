@@ -1,5 +1,7 @@
-<?php 
+<?php
 declare(strict_types=1);
+
+require template_path('includes/plugins/plate.php');
 
 add_action('after_setup_theme', function () {
     add_theme_support('title-tag');
