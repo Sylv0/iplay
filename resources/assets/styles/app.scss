@@ -1,1 +1,16 @@
 /* WordPlate */
+body{
+  nav{
+    ul{
+      li{
+        list-style: none;
+        display: inline;
+        margin-right:10px;
+        a{
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}
