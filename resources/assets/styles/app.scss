@@ -1,7 +1,16 @@
 /* WordPlate */
 body{
   nav{
-    ul{
+    display: flex;
+    justify-content: space-between;
+    *{
+      display: inline;
+    }
+    ul.links{
+      display: flex;
+      align-items: center;
+      width: 50%;
+      justify-content: space-around;
       li{
         list-style: none;
         display: inline;
