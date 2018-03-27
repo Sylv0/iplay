@@ -17,6 +17,6 @@
         <li><a href="">Aboot</a></li>
         <li><a href="">Contact</a></li>
     </ul>
-    <div class=""><img src="themes/iplay/assets/images/UX-UI-Icon_43.svg" alt=""></div>
+    <div class="collapseMenu"><img src="themes/iplay/assets/images/UX-UI-Icon_43.svg" alt=""></div>
   </nav>
   </header>

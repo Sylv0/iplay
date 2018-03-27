@@ -3,6 +3,9 @@ body{
   nav{
     display: flex;
     justify-content: space-between;
+    .collapseMenu img{
+      width: 32px;
+    }
     *{
       display: inline;
     }

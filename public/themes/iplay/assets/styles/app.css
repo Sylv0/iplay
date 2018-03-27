@@ -9,6 +9,10 @@ body nav {
           justify-content: space-between;
 }
 
+body nav .collapseMenu img {
+  width: 32px;
+}
+
 body nav * {
   display: inline;
 }
