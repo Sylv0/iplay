@@ -6,6 +6,7 @@
     "require": {
         "php": "^7.1.3",
         "johnbillion/extended-cpts": "^4.2",
+        "wordplate/acf": "^5.1",
         "wordplate/framework": "^6.2",
         "wordplate/plate": "^4.0",
         "wpackagist-plugin/advanced-custom-fields": "^5.6",
