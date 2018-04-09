@@ -5,6 +5,13 @@ declare(strict_types=1);
 // Register plugin helpers.
 require template_path('includes/plugins/plate.php');
 
+require template_path('includes/plugins/acf.php');
+
+add_action('init', function () {
+    register_extended_post_type("employee");
+    register_extended_post_type("hero");
+});
+
 // Set theme defaults.
 add_action('after_setup_theme', function () {
     // Show the admin bar.
@@ -54,3 +61,27 @@ add_filter('excerpt_more', function () {
 add_filter('excerpt_length', function () {
     return 101;
 });
+
+function my_acf_add_local_field_groups() {
+
+	$fields = [
+        acf_image(['name' => 'image', 'label' => 'Image']),
+        acf_text(['name' => 'title', 'label' => 'Title']),
+    ];
+
+    $location = [
+        [
+            acf_location('post_type', 'employee')
+        ],
+    ];
+
+    acf_field_group([
+        'title' => 'About',
+        'fields' => $fields,
+        'style' => 'seamless',
+        'location' => $location,
+    ]);
+
+}
+
+add_action('init', 'my_acf_add_local_field_groups');
