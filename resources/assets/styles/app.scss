@@ -1,5 +1,12 @@
 /* WordPlate */
+
+@import 'home.scss';
+
 body{
+  min-height: 100vh;
+  main {
+    height: 100vh;
+  }
   nav{
     display: flex;
     justify-content: space-between;
