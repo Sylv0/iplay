@@ -653,6 +653,10 @@ textarea,
   height: 100%;
 }
 
+.hero * {
+  z-index: 2;
+}
+
 .hero .hero-text .store-link {
   display: inline-block;
   width: 151px;
@@ -668,7 +672,7 @@ textarea,
 }
 
 .hero .hero-phone {
-  background-image: url(../images/iphone.png?1f772cd304ef26c963e9c98b1f16b67d);
+  background-image: url(../images/iphone.png?9a60fb486ae08c13082a3db70b914bcd);
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
@@ -679,6 +683,12 @@ textarea,
       -ms-flex-align: center;
           align-items: center;
   padding: 0 10em;
+}
+
+.hero .hero_img {
+  display: block;
+  position: absolute;
+  z-index: 1;
 }
 
 body {

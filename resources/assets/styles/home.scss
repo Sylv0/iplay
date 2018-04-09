@@ -3,6 +3,11 @@
   justify-content: space-around;
   align-items: center;
   height: 100%;
+
+  *{
+    z-index: 2;
+  }
+
   .hero-text{
 
     .store-link{
@@ -29,6 +34,12 @@
     display: flex;
     align-items: center;
     padding: 0 10em;
+  }
+
+  .hero_img{
+    display: block;
+    position: absolute;
+    z-index: 1;
   }
 
 } // END Hero
