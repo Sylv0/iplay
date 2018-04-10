@@ -2,7 +2,7 @@
 
 <?php
 if($posts = get_posts(['post_type' => 'hero']))
-    $post = $posts[rand(0, sizeof($posts)-1)];
+    $post = $posts[rand(0, count($posts)-1)];
 else
     die;
 ?>
