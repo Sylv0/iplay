@@ -9,7 +9,7 @@
   }
 
   .hero-text{
-
+    flex: 1;
     .store-link{
       display: inline-block;
       width: 151px;
@@ -27,6 +27,7 @@
   } // END hero-text
 
   .hero-phone{
+    flex: 1;
     background-image: url('../images/iphone.png');
     background-repeat: no-repeat;
     background-position: center;

@@ -657,6 +657,12 @@ textarea,
   z-index: 2;
 }
 
+.hero .hero-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 .hero .hero-text .store-link {
   display: inline-block;
   width: 151px;
@@ -672,6 +678,9 @@ textarea,
 }
 
 .hero .hero-phone {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   background-image: url(../images/iphone.png?9a60fb486ae08c13082a3db70b914bcd);
   background-repeat: no-repeat;
   background-position: center;
