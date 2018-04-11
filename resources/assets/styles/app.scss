@@ -2,7 +2,10 @@
 
 @import 'node_modules/sanitize.css/sanitize';
 @import 'home.scss';
+*{
+  font-family: "helvetica nue";
 
+}
 body{
   min-height: 100vh;
   main {

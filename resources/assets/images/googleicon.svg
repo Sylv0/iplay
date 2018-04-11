@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="52px" viewBox="0 0 53 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>A8B886B8-CB13-46C3-8239-08F286B3F158</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-17.5%" y="-41.7%" width="135.0%" height="216.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.117647059   0 0 0 0 0.215686275   0 0 0 0 0.231372549  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="FontAwesome5BrandsRegular, Font Awesome 5 Brands" font-size="24" font-weight="normal" line-spacing="48">
+        <g id="Web-—-12-x-7-grid-Copy-3" transform="translate(-1181.000000, -2758.000000)" fill="#3BCF7D">
+            <g id="Group-5-Copy-3" filter="url(#filter-1)" transform="translate(1072.000000, 2752.000000)">
+                <text id="">
+                    <tspan x="124" y="24"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
