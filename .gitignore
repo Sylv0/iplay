@@ -8,3 +8,13 @@ node_modules
 npm-debug.log
 Vagrantfile
 vendor
+
+public/themes/iplay/assets/images/as\.png
+
+public/themes/iplay/assets/images/gp\.png
+
+public/themes/iplay/assets/images/iphone\.png
+
+public/themes/iplay/assets/mix-manifest\.json
+
+public/themes/iplay/assets/styles/app\.css
