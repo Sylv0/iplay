@@ -651,6 +651,10 @@ textarea,
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+  background-image: url(../images/heroBG.png?156950492dfc3fb99d3ee337e5013e65);
+  background-size: cover;
+  background-color: #141617;
+  background-position: right;
 }
 
 .hero * {
@@ -670,18 +674,18 @@ textarea,
 }
 
 .hero .hero-text .store-link.google-play {
-  background-image: url(../images/gp.png?12363a1bd9d50d1f030fd325a07ef62e);
+  background-image: url(../images/gp.png?a87ad627ee8a9d0aad2d1db06a2f4d7c);
 }
 
 .hero .hero-text .store-link.app-store {
-  background-image: url(../images/as.png?4cdf5a6429e4217ffe916c0d9a619f51);
+  background-image: url(../images/as.png?e88c8574a5d4cc895ac009a0db9b7999);
 }
 
 .hero .hero-phone {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-image: url(../images/iphone.png?9a60fb486ae08c13082a3db70b914bcd);
+  background-image: url(../images/iphone.png?81d84e6be70eb7ee3bc3d13019879b89);
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;

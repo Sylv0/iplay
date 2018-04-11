@@ -3,6 +3,10 @@
   justify-content: space-around;
   align-items: center;
   height: 100%;
+  background-image: url('../images/heroBG.png');
+  background-size: cover;
+  background-color: #141617;
+  background-position: right;
 
   *{
     z-index: 2;
@@ -43,5 +47,3 @@
   }
 
 } // END Hero
-
-
