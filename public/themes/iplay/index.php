@@ -19,12 +19,20 @@ else
         </div>
         <div class="herobox">
           <img src="<?= get_field('hero_img', $post)['url']; ?>" alt="Player <?= $post->post_title; ?>" class="hero_img">
-
         </div>
         <div class="hero-phone herobox">
             <img src="<?= get_field('phone_img', $post->ID)['url']; ?>" alt="">
         </div>
       </div>
+    </section>
+    <section class="users">
+      <p>Följ dina favoritatleter på Iplay redan idag! Ett socialt nätverk för sportfans och professionella atleter! Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
+    </section>
+    <section class="cta">
+
+    </section>
+    <section class="superusers">
+
     </section>
 </main>
 
