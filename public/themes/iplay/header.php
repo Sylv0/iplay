@@ -12,18 +12,21 @@
 <body>
   <header>
     <nav role="navigation">
-    <div class="brand"><img src="http://via.placeholder.com/197x72" alt="Logo"></div>
-    <ul class="links">
-        <li><a href="">Home</a></li>
-        <li><a href="">Aboot</a></li>
-        <li><a href="">Super Users</a></li>
-        <li><a href="">News</a></li>
-        <li><a href="">Get the App</a></li>
-        <li><a href="">Super Users</a></li>
-    </ul class="collapse-menu">
-        <li><a href="">Test</a></li>
-    <ul>
-    </ul>
-    <div class="collapseMenu"><img src="themes/iplay/assets/images/UX-UI-Icon_43.svg" alt=""></div>
-  </nav>
+        <div class="brand">
+            <img src="themes/iplay/assets/images/iplaylogo_white_small.png" alt="Logo">
+        </div>
+        <ul class="links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Aboot</a></li>
+            <li><a href="">Super Users</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Get the App</a></li>
+            <li><a href="">Super Users</a></li>
+        </ul>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
   </header>
