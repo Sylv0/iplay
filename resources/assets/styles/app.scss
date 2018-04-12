@@ -5,6 +5,7 @@
 @import 'users.scss';
 @import 'cta.scss';
 @import 'superusers.scss';
+@import 'navbar.scss';
 *{
   font-family: "helvetica nue";
 
@@ -13,30 +14,5 @@ body{
   min-height: 100vh;
   main {
     height: 100vh;
-  }
-  nav{
-    display: flex;
-    justify-content: space-between;
-    .collapseMenu img{
-      width: 32px;
-    }
-    *{
-      display: inline;
-    }
-    ul.links{
-      display: flex;
-      align-items: center;
-      width: 50%;
-      justify-content: space-around;
-      li{
-        list-style: none;
-        display: inline;
-        margin-right:10px;
-        a{
-          text-decoration: none;
-          color: black;
-        }
-      }
-    }
   }
 }
