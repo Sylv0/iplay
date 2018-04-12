@@ -9,9 +9,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-content: center;
-  .collapseMenu img {
-    width: 32px;
-  }
   * {
     display: inline;
   }
@@ -49,6 +46,38 @@ nav {
 
     &:hover span{
       width: 20px;
+    }
+  }
+
+  .collapse{
+    height: 0vh;
+    overflow: hidden;
+    transition: height .5s ease-in-out;
+    position: absolute;
+    top: 4rem;
+    background-color: black;
+    left: 0;
+    right: 0;
+
+    &.active{
+      height: 50vh;
+    }
+
+    ul{
+      display: flex;
+      flex-direction: row;
+
+      h4{
+        color: white;
+      }
+
+      li{
+        text-align: right;
+         a{
+          color: #3BCF7D;
+          text-decoration: none;
+         }
+      }
     }
   }
 }
