@@ -1,5 +1,16 @@
 .users{
   height: 100%;
-  background-image: url('../images/usersBG.png');
-  background-size: cover;
+}
+.line{
+  width: 100px;
+  height: 1px;
+  background-color: grey;
+}
+.sidebar{
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(90deg) translateY(-100%);
 }

@@ -33,30 +33,33 @@ else
       <p>Följ dina favoritatleter på Iplay redan idag! Ett socialt nätverk för sportfans och professionella atleter! Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
     </section>
     <section class="cta">
-      <!-- Slider main container -->
-<div class="swiper-container">
-    <!-- Additional required wrapper -->
-    <!-- If we need pagination -->
+      <!-- <div class="sidebar"><div class="line"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line"></div></div>
+
+    <div class="swiper-container">
     <div class="swiper-pagination"></div>
-    <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <h2>Iplay för:</h2>
 
     <div class="swiper-button-next"></div>
 
     <div class="swiper-wrapper">
-        <!-- Slides -->
         <div class="swiper-slide"><h1>Tränaren</h1><img src="themes/iplay/assets/images/swipegubbe.svg"></div>
         <div class="swiper-slide"><h1>Atleten</h1><img src="themes/iplay/assets/images/swipegubbe.svg" alt=""></div>
         <div class="swiper-slide"><h1>Fansen</h1><img src="themes/iplay/assets/images/swipegubbe.svg" alt=""></div>
     </div>
 
-</div>
+</div> -->
     </section>
     <section class="superusers">
-      <img src="themes/iplay/assets/images/addpic.png">
+      <!-- <img src="themes/iplay/assets/images/addpic.png"> -->
       <img src="themes/iplay/assets/images/mappic.png">
     </section>
+    <section class="footer">
+      <div class="fotobject object1"><div class="logo"></div><div class="logo"></div><div class="logo"></div><div class="logo"></div><div class="logo"></div><div class="logo"></div></div>
+      <div class="fotobject object2"><p>Take a tour</p><p>Superusers</p><p>Team</p><p>About</p><p>Contact</p><p>Press</p><p>Blog</p></div>
+      <div class="fotobject object3"><p>© 2016 All rights reserved. IPY Holding AB</p></div>
+    </section>
 </main>
+
 
 <?php get_footer(); ?>

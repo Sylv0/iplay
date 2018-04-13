@@ -1,0 +1,35 @@
+.footer{
+height: 40%;
+width: 100%;
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+p{
+  color: white;
+}
+
+.logo{
+  height: 20px;
+  width: 20px;
+  background-color: white;
+}
+
+.fotobject{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+.object1{
+  width: 17%;
+}
+.object2{
+  width: 40%;
+}
+.object3{
+  height: 30%;
+  padding-top: 60px;
+}
