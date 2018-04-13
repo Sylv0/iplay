@@ -52,6 +52,7 @@ else
     </section>
     <section class="superusers">
       <div class="sidebar2"><div class="line2"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line2"></div></div>
+      <div class="scrollindicator"><div class="scrollline"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="scrollline"></div></div>
       <div class="supercontainer">
         <div class="super1">
           <p class="pusers">Super users</p>
@@ -70,6 +71,14 @@ else
         <div class="super2">
           <div class="circle">
             <img class="athlete" src="themes/iplay/assets/images/johnguidetti.png">
+            <div class="icons">
+              <div class="icon">
+                <i class="fab fa-apple "></i>
+              </div>
+              <div class="icon">
+                <i class="fab fa-google-play"></i>
+              </div>
+            </div>
           </div>
         </div>
     </div>

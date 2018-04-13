@@ -1,0 +1,22 @@
+.scrollindicator{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(90deg);
+  position: absolute;
+  right: -10%;
+  top: 330%;
+}
+.dot{
+  margin-left: 6px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background-color: grey;
+  width: 8px;
+  height: 8px;
+}
+.scrollline {
+  width: 188px;
+  height: 1px;
+  background-color: grey;
+}

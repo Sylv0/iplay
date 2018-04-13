@@ -8,11 +8,12 @@
   width: 100%;
   height: 90%;
   display: flex;
-  justify-content: space-around;
   flex-direction: row;
   margin-left: 150px;
 }
 .sidebar2{
+  color: grey;
+  font-size: 10px;
   position: absolute;
   left: -10%;
   top: 330%;
@@ -23,8 +24,12 @@
   flex-direction: row;
   transform: rotate(-90deg);
 }
+.sidebar2 p{
+  margin-left: 7px;
+  margin-right: 7px;
+}
 .line2 {
-  width: 100px;
+  width: 150px;
   height: 1px;
   background-color: grey;
 }
@@ -37,11 +42,11 @@
 //   flex-direction: row;
 // }
 .super1{
-  width: 30%;
-  height: 100%;
+  width: 25%;
+  height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 }
 .super1 h2:hover{
   color: #6ACB84;
@@ -52,11 +57,11 @@
   font-size: 20px;
 }
 .filltext{
-  width: 60%;
+  width: 80%;
   text-align: justify;
 }
 .filltext p{
-  font-size: 15px;
+  font-size: 13px;
 }
 .super1 h2{
   margin: 0;
@@ -85,4 +90,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.icon{
+  margin-bottom: 8px;
+  font-size: 1.5em;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  padding: 0.3em;
+  text-align: center;
+}
+.icons{
+  align-self: flex-end;
 }
