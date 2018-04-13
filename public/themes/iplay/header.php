@@ -54,6 +54,14 @@
                 <li><a href="#">Agenter</a></li>
                 <li><a href="#">Laget</a></li>
             </ul>
+            <ul>
+                <li><h4>Atleten -</h4></li>
+                <li><a href="#">Fansen</a></li>
+                <li><a href="#">Coachen</a></li>
+                <li><a href="#">Sponsorer</a></li>
+                <li><a href="#">Agenter</a></li>
+                <li><a href="#">Laget</a></li>
+            </ul>
         </div>
     </nav>
   </header>
