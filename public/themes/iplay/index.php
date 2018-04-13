@@ -45,7 +45,7 @@ else
 
     <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide"><h1>Tränaren</h1><img src="themes/iplay/assets/images/swipegubbe.svg" alt=""></div>
+        <div class="swiper-slide"><h1>Tränaren</h1><img src="themes/iplay/assets/images/swipegubbe.svg"></div>
         <div class="swiper-slide"><h1>Atleten</h1><img src="themes/iplay/assets/images/swipegubbe.svg" alt=""></div>
         <div class="swiper-slide"><h1>Fansen</h1><img src="themes/iplay/assets/images/swipegubbe.svg" alt=""></div>
     </div>
@@ -53,7 +53,8 @@ else
 </div>
     </section>
     <section class="superusers">
-
+      <img src="themes/iplay/assets/images/addpic.png">
+      <img src="themes/iplay/assets/images/mappic.png">
     </section>
 </main>
 
