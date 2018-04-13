@@ -51,10 +51,8 @@ else
 </div> -->
     </section>
     <section class="superusers">
+      <div class="sidebar2"><div class="line2"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line2"></div></div>
       <div class="supercontainer">
-        <div class="super0">
-
-        </div>
         <div class="super1">
           <p class="pusers">Super users</p>
           <div class="headathletes">

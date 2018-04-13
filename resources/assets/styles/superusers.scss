@@ -5,15 +5,39 @@
   align-items: flex-end;
 }
 .supercontainer{
-  width: 90%;
+  width: 100%;
   height: 90%;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   margin-left: 150px;
 }
+.sidebar2{
+  position: absolute;
+  left: -10%;
+  top: 330%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  transform: rotate(-90deg);
+}
+.line2 {
+  width: 100px;
+  height: 1px;
+  background-color: grey;
+}
+// .super0{
+//   width: 5%;
+//   height: 90%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: row;
+// }
 .super1{
-  width: 35%;
+  width: 30%;
   height: 100%;
   display: flex;
   flex-direction: column;
