@@ -5,6 +5,8 @@ var mySwiper = new Swiper ('.swiper-container', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
+  slidesPerView: 2,
+  spaceBetween: 200,
 
   // If we need pagination
   pagination: {
