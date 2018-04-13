@@ -1,38 +1,20 @@
 .superusers{
   height: 100%;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 .supercontainer{
   width: 100%;
   height: 90%;
   display: flex;
-  flex-direction: row;
-  margin-left: 150px;
-}
-.sidebar2{
-  color: grey;
-  font-size: 10px;
-  position: absolute;
-  left: -10%;
-  top: 330%;
-  margin: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  transform: rotate(-90deg);
+  margin-left: 150px;
 }
-.sidebar2 p{
-  margin-left: 7px;
-  margin-right: 7px;
-}
-.line2 {
-  width: 150px;
-  height: 1px;
-  background-color: grey;
-}
+
+
 // .super0{
 //   width: 5%;
 //   height: 90%;
@@ -46,7 +28,8 @@
   height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: left;
+  align-items: left;
 }
 .super1 h2:hover{
   color: #6ACB84;
@@ -61,14 +44,14 @@
   text-align: justify;
 }
 .filltext p{
-  font-size: 13px;
+  font-size: 16px;
+  line-height: 24px;
 }
 .super1 h2{
   margin: 0;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 40px;
-  font-weight: bolder;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 56px;
 }
 .super2{
   width: 65%;
@@ -80,7 +63,18 @@
 .athlete{
   height: 140%;
   z-index: 5;
+  display: none;
 }
+.list-item {
+  cursor: pointer;
+  transition: transform 200ms ease;
+}
+.athlete--active { display: block; }
+.list-item:hover { transform: translateY(-3px); }
+.list-item:active { transform: translateY(0); }
+
+.list-item.list-item--active img { border-color: #55a6ff; }
+
 
 .circle{
   border-radius: 50%;
@@ -102,4 +96,20 @@
 }
 .icons{
   align-self: flex-end;
+}
+.knowmore{
+  color: white;
+  width: 160px;
+  height: 40px;
+  background-color: #6ACB84;
+  border-radius: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding:0rem 1.5rem;
+  transform: skew(-9.5deg);
+  font-size: 15px;
+line-height: 1rem;
+
+
 }

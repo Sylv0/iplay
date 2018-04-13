@@ -31,25 +31,14 @@ else
       </div>
     </section>
     <section class="users">
+      <div class="sidebar1"><div class="line2"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line2"></div></div>
+      <div class="scrollindicator1"><div class="scrollline"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="scrollline"></div></div>
       <p>Följ dina favoritatleter på Iplay redan idag! Ett socialt nätverk för sportfans och professionella atleter! Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
     </section>
     <section class="cta">
-      <!-- <div class="sidebar"><div class="line"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line"></div></div>
-
-    <div class="swiper-container">
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-prev"></div>
-    <h2>Iplay för:</h2>
-
-    <div class="swiper-button-next"></div>
-
-    <div class="swiper-wrapper">
-        <div class="swiper-slide"><h1>Tränaren</h1><img src="themes/iplay/assets/images/swipegubbe.svg"></div>
-        <div class="swiper-slide"><h1>Atleten</h1><img src="themes/iplay/assets/images/swipegubbe.svg" alt=""></div>
-        <div class="swiper-slide"><h1>Fansen</h1><img src="themes/iplay/assets/images/swipegubbe.svg" alt=""></div>
+      <div class="addpic">
+      <!-- <img src="themes/iplay/assets/images/addpic.png"> -->
     </div>
-
-</div> -->
     </section>
     <section class="superusers">
       <div class="sidebar2"><div class="line2"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line2"></div></div>
@@ -58,20 +47,22 @@ else
         <div class="super1">
           <p class="pusers">Super users</p>
           <div class="headathletes">
-          <h2>Nils Petterson</h2>
-          <h2>Victor Thomas</h2>
-          <h2>John Guidetti</h2>
-          <h2>Bella Gulldén</h2>
-          <h2>Lucas Nilsson</h2>
+          <!-- <h2 data-athlete="nils" class="list-item">Nils Petterson</h2> -->
+          <h2 data-athlete="victor"class="list-item">Victor Thomas</h2>
+          <h2 data-athlete="john"class="list-item">John Guidetti</h2>
+          <!-- <h2 data-athlete="bella"class="list-item">Bella Gulldén</h2>
+          <h2 data-athlete="lucas"class="list-item">Lucas Nilsson</h2> -->
           </div>
           <div class="filltext">
           <p>Följ dina favoritatleter på Iplay - Ett socialt näteverk för sportfans och atleter!</p>
           <p>Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
           </div>
+          <div class="knowmore"><span>Vill du veta mer?<span><span class="knapp-icon"></div>
         </div>
         <div class="super2">
           <div class="circle">
-            <img class="athlete" src="themes/iplay/assets/images/johnguidetti.png">
+            <img class="athlete" data-athlete="john" src="themes/iplay/assets/images/johnguidetti.png">
+            <img class="athlete" data-athlete="victor" src="themes/iplay/assets/images/victorthomas.png">
             <div class="icons">
               <div class="icon">
                 <i class="fab fa-apple "></i>
@@ -83,13 +74,12 @@ else
           </div>
         </div>
     </div>
-      <!-- <img src="themes/iplay/assets/images/addpic.png"> -->
     </section>
     <section class="footer">
       <img class="mappic" src="themes/iplay/assets/images/mappic.png">
       <div class="footerbar">
       <div class="fotobject object1"><div class="logo"></div><div class="logo"></div><div class="logo"></div><div class="logo"></div><div class="logo"></div><div class="logo"></div></div>
-      <div class="fotobject object2"><p>Take a tour</p><p>Superusers</p><p>Team</p><p>About</p><p>Contact</p><p>Press</p><p>Blog</p></div>
+      <div class="fotobject object2"><p>Take a tour</p><p>Super users</p><p>Team</p><p>About</p><p>Contact</p><p>Press</p><p>Blog</p></div>
       <div class="fotobject object3"><p>© 2016 All rights reserved. IPY Holding AB</p></div>
     </div>
     </section>

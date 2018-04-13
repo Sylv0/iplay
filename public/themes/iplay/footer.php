@@ -1,5 +1,6 @@
 <?php wp_footer(); ?>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/js/swiper.js"></script>
+<script type="text/javascript" src="/themes/iplay/assets/scripts/hover.js"></script>
 <script>
 var mySwiper = new Swiper ('.swiper-container', {
   // Optional parameters
