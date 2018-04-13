@@ -45,6 +45,9 @@ add_action('wp_enqueue_scripts', function () {
 
     wp_register_script('wordplate', mix('scripts/app.js'), '', '', true);
     wp_enqueue_script('wordplate');
+
+    wp_register_script('faicons', 'https://use.fontawesome.com/releases/v5.0.10/js/all.js');
+    wp_enqueue_script('faicons');
 });
 
 // Remove JPEG compression.
