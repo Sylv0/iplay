@@ -13,9 +13,10 @@ else
         <div class="heroboxcontainer">
         <div class="hero-text herobox">
             <img src="themes/iplay/assets/images/thumb.svg" alt="">
-            <h3>Visste du att:</h3>
-            <h3><?php echo $post->post_title ?> finns på Iplay?</h3>
-            <p>Följ dina favoritatleter på Iplay — Ett socialt nätverk för sportfans och professionella atleter!  Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
+            <h3 class="dyk">Visste du att:</h3>
+            <h3 class="ison"><?php echo $post->post_title ?> finns på Iplay?</h3>
+            <p>Följ dina favoritatleter på Iplay — Ett socialt nätverk för sportfans och professionella atleter!</p>
+            <p>Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
             <div>
                 <a href="#" class="store-link google-play">Google Play <i class="fab fa-google-play"></i></a>
                 <a href="#" class="store-link app-store">App Store <i class="fab fa-apple"></i></a>
