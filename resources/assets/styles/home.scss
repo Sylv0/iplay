@@ -44,7 +44,17 @@
     .store-link {
       display: inline-block;
       width: 151px;
-      height: 45px;
+      color: #3BCF7D;
+      text-decoration: none;
+      font-weight: bold;
+      border: 2px solid #3BCF7D;
+      padding: 1rem;
+      border-radius: .5rem;
+      transform: skew(-9.5deg);
+      text-align: center;
+      i {
+        font-size: 2em;
+      }
     } // END store-link
   } // END hero-text
 
