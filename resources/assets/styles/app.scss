@@ -1,5 +1,15 @@
 /* WordPlate */
 
+@font-face {
+  font-family: 'Font Awesome Brands';
+  src: url('../fonts/FontAwesomeBrand.otf') format('woff'), /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/Helvetica Neue.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
 @import 'node_modules/sanitize.css/sanitize';
 @import 'home.scss';
 @import 'users.scss';
@@ -8,7 +18,7 @@
 @import 'navbar.scss';
 @import 'footer.scss';
 *{
-  font-family: "helvetica nue";
+  font-family: "Helvetica Neue";
 
 }
 body{
