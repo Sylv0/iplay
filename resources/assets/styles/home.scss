@@ -64,5 +64,17 @@
     position: absolute;
     z-index: 1;
   }
-
+.line{
+  width: 100px;
+  height: 1px;
+  background-color: white;
+}
+.sidebar{
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(90deg) translateY(-100%);
+}
 } // END Hero

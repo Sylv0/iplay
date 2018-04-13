@@ -9,6 +9,7 @@ else
 
 <main>
     <section class="hero">
+        <div class="sidebar"><div class="line"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line"></div></div>
         <div class="heroboxcontainer">
         <div class="hero-text herobox">
             <img src="themes/iplay/assets/images/thumb.svg" alt="">
