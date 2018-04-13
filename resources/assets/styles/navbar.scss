@@ -1,5 +1,4 @@
 nav {
-  z-index: 5;
   position: absolute;
   left: 0;
   right: 0;
@@ -11,6 +10,7 @@ nav {
   align-content: center;
   * {
     display: inline;
+    z-index: 9;
   }
 
   ul.links {
@@ -40,7 +40,7 @@ nav {
       border-color: #FFF;
       width: 16px;
       margin-top: 3px;
-      transition: all .1s ease-in-out;
+      transition: height .1s ease-in-out;
 
     }
 
@@ -54,25 +54,32 @@ nav {
     overflow: hidden;
     transition: height .5s ease-in-out;
     position: absolute;
-    top: 4rem;
     background-color: black;
     left: 0;
     right: 0;
+    z-index: 8;
+    border-radius: 8px;
+    top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
 
     &.active{
       height: 50vh;
     }
 
     ul{
-      display: flex;
-      flex-direction: row;
-
-      h4{
-        color: white;
-      }
+      display: inline-block;
 
       li{
         text-align: right;
+        display: block;
+
+        h4{
+          color: white;
+        }
+
          a{
           color: #3BCF7D;
           text-decoration: none;

@@ -29,8 +29,9 @@
             <span></span>
         </div>
         <div class="collapse">
+            <img src="http://via.placeholder.com/150x150" alt="">
             <ul>
-                <li><h4>Atleten</h4></li>
+                <li><h4>Atleten -</h4></li>
                 <li><a href="#">Fansen</a></li>
                 <li><a href="#">Coachen</a></li>
                 <li><a href="#">Sponsorer</a></li>
@@ -38,7 +39,7 @@
                 <li><a href="#">Laget</a></li>
             </ul>
             <ul>
-                <li><h4>Atleten</h4></li>
+                <li><h4>Atleten -</h4></li>
                 <li><a href="#">Fansen</a></li>
                 <li><a href="#">Coachen</a></li>
                 <li><a href="#">Sponsorer</a></li>
@@ -46,7 +47,7 @@
                 <li><a href="#">Laget</a></li>
             </ul>
             <ul>
-                <li><h4>Atleten</h4></li>
+                <li><h4>Atleten -</h4></li>
                 <li><a href="#">Fansen</a></li>
                 <li><a href="#">Coachen</a></li>
                 <li><a href="#">Sponsorer</a></li>
