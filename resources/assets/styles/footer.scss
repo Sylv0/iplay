@@ -1,4 +1,10 @@
 .footer{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footerbar{
 height: 40%;
 width: 100%;
 background-color: black;
@@ -7,7 +13,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
-p{
+.footer p{
   color: white;
 }
 
@@ -24,6 +30,7 @@ p{
   width: 50%;
 }
 .object1{
+  margin-top: 20px;
   width: 17%;
 }
 .object2{
@@ -31,5 +38,9 @@ p{
 }
 .object3{
   height: 30%;
-  padding-top: 60px;
+  padding-top: 30px;
+}
+.mappic{
+  height: auto;
+  width: 100vw;
 }

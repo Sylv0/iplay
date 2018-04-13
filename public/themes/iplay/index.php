@@ -51,13 +51,36 @@ else
 </div> -->
     </section>
     <section class="superusers">
+      <div class="supercontainer">
+        <div class="super1">
+          <p class="pusers">Super users</p>
+          <div class="headathletes">
+          <h2>Nils Petterson</h2>
+          <h2>Victor Thomas</h2>
+          <h2>John Guidetti</h2>
+          <h2>Bella Gulldén</h2>
+          <h2>Lucas Nilsson</h2>
+          </div>
+          <div class="filltext">
+          <p>Följ dina favoritatleter på Iplay - Ett socialt näteverk för sportfans och atleter!</p>
+          <p>Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
+          </div>
+        </div>
+        <div class="super2">
+          <div class="circle">
+            <img class="athlete" src="themes/iplay/assets/images/johnguidetti.png">
+          </div>
+        </div>
+    </div>
       <!-- <img src="themes/iplay/assets/images/addpic.png"> -->
-      <img src="themes/iplay/assets/images/mappic.png">
     </section>
     <section class="footer">
+      <img class="mappic" src="themes/iplay/assets/images/mappic.png">
+      <div class="footerbar">
       <div class="fotobject object1"><div class="logo"></div><div class="logo"></div><div class="logo"></div><div class="logo"></div><div class="logo"></div><div class="logo"></div></div>
       <div class="fotobject object2"><p>Take a tour</p><p>Superusers</p><p>Team</p><p>About</p><p>Contact</p><p>Press</p><p>Blog</p></div>
       <div class="fotobject object3"><p>© 2016 All rights reserved. IPY Holding AB</p></div>
+    </div>
     </section>
 </main>
 
