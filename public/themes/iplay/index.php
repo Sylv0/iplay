@@ -33,21 +33,21 @@ else
       <!-- Slider main container -->
 <div class="swiper-container">
     <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        ...
-    </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
-
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
+    <h2>Iplay för:</h2>
+
     <div class="swiper-button-next"></div>
 
-    <!-- If we need scrollbar -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><h1>Tränaren</h1><img src="themes/iplay/assets/images/swipegubbe.svg" alt=""></div>
+        <div class="swiper-slide"><h1>Atleten</h1><img src="themes/iplay/assets/images/swipegubbe.svg" alt=""></div>
+        <div class="swiper-slide"><h1>Fansen</h1><img src="themes/iplay/assets/images/swipegubbe.svg" alt=""></div>
+    </div>
+
 </div>
     </section>
     <section class="superusers">
