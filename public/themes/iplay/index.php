@@ -11,24 +11,25 @@ else
     <section class="hero">
         <!-- <div class="sidebar"><div class="line"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line"></div></div> -->
         <div class="heroboxcontainer">
-        <div class="hero-text herobox">
-            <img src="themes/iplay/assets/images/thumb.svg" alt="">
-            <h3 class="dyk">Visste du att:</h3>
-            <h3 class="ison"><?php echo $post->post_title ?> finns på Iplay?</h3>
-            <p>Följ dina favoritatleter på Iplay — Ett socialt nätverk för sportfans och professionella atleter!</p>
-            <p>Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
-            <div>
-                <a href="#" class="store-link google-play">Google Play <i class="fab fa-google-play"></i></a>
-                <a href="#" class="store-link app-store">App Store <i class="fab fa-apple"></i></a>
+            <div class="hero-text herobox">
+                <img src="themes/iplay/assets/images/thumb.svg" alt="">
+                <h3 class="dyk">Visste du att:</h3>
+                <h3 class="ison"><?php echo $post->post_title ?> finns på Iplay?</h3>
+                <p>Följ dina favoritatleter på Iplay — Ett socialt nätverk för sportfans och professionella atleter!</p>
+                <p>Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
+                <div>
+                    <a href="#" class="store-link google-play">Google Play <i class="fab fa-google-play"></i></a>
+                    <a href="#" class="store-link app-store">App Store <i class="fab fa-apple"></i></a>
+                </div>
+            </div>
+            <div class="hero-img herobox">
+                <img src="<?= get_field('hero_img', $post)['url']; ?>" alt="Player <?= $post->post_title; ?>" class="hero_img">
+            </div>
+            <div class="hero-phone herobox">
+                <img src="themes/iplay/assets/images/iphone.png" alt="Phone" class="phone">
+                <img src="<?= get_field('phone_img', $post->ID)['url']; ?>" alt="Image in phone" class="phone-img">
             </div>
         </div>
-        <div class="hero-img herobox">
-          <img src="<?= get_field('hero_img', $post)['url']; ?>" alt="Player <?= $post->post_title; ?>" class="hero_img">
-        </div>
-        <div class="hero-phone herobox">
-            <img src="<?= get_field('phone_img', $post->ID)['url']; ?>" alt="">
-        </div>
-      </div>
     </section>
     <section class="users">
       <div class="sidebar1"><div class="line2"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line2"></div></div>
