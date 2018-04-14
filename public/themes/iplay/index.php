@@ -77,12 +77,19 @@ else
     </div>
     </section>
     <section class="footer">
-      <img class="mappic" src="themes/iplay/assets/images/mappic.png">
-      <div class="footerbar">
-      <div class="fotobject object1"><div class="logo"></div><div class="logo"></div><div class="logo"></div><div class="logo"></div><div class="logo"></div><div class="logo"></div></div>
-      <div class="fotobject object2"><p>Take a tour</p><p>Super users</p><p>Team</p><p>About</p><p>Contact</p><p>Press</p><p>Blog</p></div>
-      <div class="fotobject object3"><p>© 2016 All rights reserved. IPY Holding AB</p></div>
-    </div>
+        <img class="mappic" src="themes/iplay/assets/images/mappic.png">
+        <div class="footerbar">
+            <div class="fotobject object1">
+                <div class="logo"><i class="fab fa-twitter"></i></div>
+                <div class="logo"><i class="fab fa-facebook"></i></div>
+                <div class="logo"><i class="fab fa-instagram"></i></div>
+                <div class="logo"><i class="fab fa-linkedin"></i></div>
+                <div class="logo"><i class="fab fa-google-play"></i></div>
+                <div class="logo"><i class="fab fa-apple"></i></div>
+            </div>
+            <div class="fotobject object2"><p>Take a tour</p><p>Super users</p><p>Team</p><p>About</p><p>Contact</p><p>Press</p><p>Blog</p></div>
+            <div class="fotobject object3"><p>© 2016 All rights reserved. IPY Holding AB</p></div>
+        </div>
     </section>
 </main>
 

@@ -1,46 +1,49 @@
-.footer{
+.footer {
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-.footerbar{
-height: 40%;
-width: 100%;
-background-color: black;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+.footerbar {
+  height: 40%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.footer p{
+.footer p {
   color: white;
 }
 
-.logo{
-  height: 20px;
-  width: 20px;
-  background-color: white;
+.logo {
+  font-size: 1.5em;
+  color: white;
+
+  &:hover{
+    color: #55F;
+  }
 }
 
-.fotobject{
+.fotobject {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 50%;
 }
-.object1{
+.object1 {
   margin-top: 20px;
   width: 17%;
 }
-.object2{
+.object2 {
   width: 40%;
 }
-.object3{
+.object3 {
   height: 30%;
   padding-top: 30px;
 }
-.mappic{
+.mappic {
   height: auto;
   width: 100vw;
 }
