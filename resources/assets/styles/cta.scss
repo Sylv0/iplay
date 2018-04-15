@@ -5,25 +5,50 @@
   justify-content: center;
 }
 
-
 .addpic{
-  width: 81%;
-  height: 80%;
+  width: 80%;
+  height: 85%;
   background-image: url('../images/addpic.png');
-  background-size: contain;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1%;
+}
+.knowmore1{
+  color: #3BCF7D;
+  width: 160px;
+  height: 40px;
+  background-color: black;
+  border-radius: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0rem 1.5rem;
+  transform: skew(-9.5deg);
+  font-size: 15px;
+  line-height: 1rem;
+  margin-left: 1em;
 }
 
+.ctaicon{
+  color: white;
+  font-size: 1.5em;
+  padding: 0.1em;
 
-
-.swiper-container {
-    width: 500px;
-    height: 500px;
 }
-.swiper-pagination {
-    top: 10%;
+.icontext{
+  color: #3BCF7D;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  text-align: center;
 }
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
+.loveidrott{
+  font-size: 48px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: white;
 }

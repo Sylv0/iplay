@@ -38,9 +38,16 @@ else
     </section>
     <section class="cta">
       <div class="addpic">
-        <h2>Sociala medier för dig som verkligen älskar idrott!</h2>
-        <a href="#" class="store-link google-play">Google Play <i class="fab fa-google-play"></i></a>
-        <a href="#" class="store-link app-store">App Store <i class="fab fa-apple"></i></a>
+        <img src="themes/iplay/assets/images/iplaylogo_white_small.png" alt="">
+        <h2 class="loveidrott">Sociala medier för dig som<br> verkligen älskar idrott!</h2>
+        <div class="icons1">
+        <div class="knowmore1">
+        <p class="icontext">Google Play</p><i class="fab fa-google-play ctaicon"></i>
+      </div>
+      <div class="knowmore1">
+        <p class="icontext">App Store</p><i class="fab fa-apple ctaicon"></i>
+      </div>
+    </div>
     </div>
     </section>
     <section class="superusers">
@@ -75,7 +82,6 @@ else
               <i class="fab fa-google-play"></i>
             </div>
           </div>
-
         </div>
     </div>
     </section>
