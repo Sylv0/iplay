@@ -1,6 +1,4 @@
-const nisse = document.querySelector('.nisse');
-console.log(nisse);
-
+import './carousel';
 window.onload = () => {
   const burger = document.querySelector('.burger');
   const collapse = document.querySelector('.collapse');

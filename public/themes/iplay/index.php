@@ -40,10 +40,17 @@ else
         </div>
         <div class="users2">
           <h2>Iplay för:</h2>
-          <img src="themes/iplay/assets/images/swipegubbe.svg" alt="">
+          <div class="hero-image-sub-carousel">
+            <img class="hero-image-badge login-img" data-position="1" src="themes/iplay/assets/images/swipegubbe.svg" alt="">
+            <img class="hero-image-badge profile-img" data-position="2" src="themes/iplay/assets/images/swipegubbe.svg" alt="">
+            <img class="hero-image-badge post-img" data-position="3" src="themes/iplay/assets/images/swipegubbe.svg" alt="">
+        </div>
+          <div class="knowphone">
           <div class="knowmore2">
             <p class="userknow">Vill du veta mer?</p>
           </div>
+          <img class="greenphone" src="themes/iplay/assets/images/greenphone.svg" alt="">
+        </div>
         </div>
         <div class="users3">
           <h2>Följ dina favoritatleter på Iplay redan idag!</h2><p>Ett socialt nätverk för sportfans och professionella atleter! Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>

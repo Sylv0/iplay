@@ -1,0 +1,17 @@
+@mixin bp($point) {
+  @if $point == xsmall {
+    @media (max-width: 375px) { @content; }
+  }
+  @else if $point == small {
+    @media (max-width: 768px) { @content; }
+  }
+  @else if $point == medium {
+    @media (max-width: 1250px) { @content; }
+  }
+  @else if $point == large {
+    @media (min-width: 1250px) { @content; }
+  }
+  @else if $point == x-large {
+    @media (min-width: 1600px) { @content; }
+  }
+}

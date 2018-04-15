@@ -9,7 +9,7 @@
   font-family: 'Helvetica Neue';
   src: url('../fonts/Helvetica Neue.woff') format('woff'), /* Pretty Modern Browsers */
 }
-
+@import 'mixins/mixins.scss';
 @import 'node_modules/sanitize.css/sanitize';
 @import 'home.scss';
 @import 'users.scss';
@@ -18,6 +18,7 @@
 @import 'navbar.scss';
 @import 'footer.scss';
 @import 'scrollindicator.scss';
+@import 'carousel.scss';
 *{
   font-family: "Helvetica Neue";
 
