@@ -34,7 +34,21 @@ else
     <section class="users">
       <div class="sidebar1"><div class="line2"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line2"></div></div>
       <div class="scrollindicator1"><div class="scrollline"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="scrollline"></div></div>
-      <p>Följ dina favoritatleter på Iplay redan idag! Ett socialt nätverk för sportfans och professionella atleter! Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
+      <div class="userscontainer">
+        <div class="users1">
+          <h2>Följ dina favoritatleter på Iplay redan idag!</h2><p>Ett socialt nätverk för sportfans och professionella atleter! Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
+        </div>
+        <div class="users2">
+          <h2>Iplay för:</h2>
+          <img src="themes/iplay/assets/images/swipegubbe.svg" alt="">
+          <div class="knowmore2">
+            <p class="userknow">Vill du veta mer?</p>
+          </div>
+        </div>
+        <div class="users3">
+          <h2>Följ dina favoritatleter på Iplay redan idag!</h2><p>Ett socialt nätverk för sportfans och professionella atleter! Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
+        </div>
+      </div>
     </section>
     <section class="cta">
       <div class="addpic">
