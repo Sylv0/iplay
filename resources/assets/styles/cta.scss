@@ -1,31 +1,17 @@
-// .cta{
-//   height: 100%;
-// }
-//
-//
-// .addpic{
-//   width: 81%;
-//   height: 80%;
-//   position: relative;
-//   display: inline-block;
-//
-// }
-//
-//
-// .addpic img{
-//  // max-height: 80%;
-//  width: 100%;
-//  z-index:  -25;
-//  // object-fit: contain;
-// }
-// .addbox{
-//   display: inline-block;
-//   width: 500px;
-//   height: 500px;
-//   background-color: black;
-//   overflow: hidden;
-//   z-index: 100;
-// }
+.cta{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.addpic{
+  width: 81%;
+  height: 80%;
+  background-image: url('../images/addpic.png');
+  background-size: contain;
+}
 
 
 

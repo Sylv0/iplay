@@ -37,12 +37,11 @@ else
       <p>Följ dina favoritatleter på Iplay redan idag! Ett socialt nätverk för sportfans och professionella atleter! Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
     </section>
     <section class="cta">
-      <!-- <div class="addpic">
-      <img src="themes/iplay/assets/images/addpic.png">
-      <div class="addbox">
-
+      <div class="addpic">
+        <h2>Sociala medier för dig som verkligen älskar idrott!</h2>
+        <a href="#" class="store-link google-play">Google Play <i class="fab fa-google-play"></i></a>
+        <a href="#" class="store-link app-store">App Store <i class="fab fa-apple"></i></a>
     </div>
-    </div> -->
     </section>
     <section class="superusers">
       <div class="sidebar2"><div class="line2"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line2"></div></div>
