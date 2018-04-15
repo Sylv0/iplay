@@ -82,6 +82,7 @@
       font-weight: bold;
       border: 2px solid #3BCF7D;
       padding: 1rem;
+      margin-left: 1rem;
       border-radius: .5rem;
       transform: skew(-9.5deg);
       text-align: center;
@@ -93,9 +94,6 @@
 
   .hero-phone {
     grid: phone;
-    background-image: url("../images/iphone.png");
-    background-repeat: no-repeat;
-    background-position: center;
     height: 100%;
     display: flex;
     align-items: center;
@@ -103,7 +101,13 @@
     padding-top: 0;
 
     img{
-      width: 50%;
+      position: absolute;
+      width: 15rem;
+
+      &.phone-img{
+        width: 14rem;
+        z-index: 1;
+      }
     }
   }
 
