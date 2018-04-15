@@ -36,9 +36,12 @@ else
       <p>Följ dina favoritatleter på Iplay redan idag! Ett socialt nätverk för sportfans och professionella atleter! Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
     </section>
     <section class="cta">
-      <div class="addpic">
-      <!-- <img src="themes/iplay/assets/images/addpic.png"> -->
+      <!-- <div class="addpic">
+      <img src="themes/iplay/assets/images/addpic.png">
+      <div class="addbox">
+
     </div>
+    </div> -->
     </section>
     <section class="superusers">
       <div class="sidebar2"><div class="line2"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line2"></div></div>
@@ -47,11 +50,11 @@ else
         <div class="super1">
           <p class="pusers">Super users</p>
           <div class="headathletes">
-          <!-- <h2 data-athlete="nils" class="list-item">Nils Petterson</h2> -->
-          <h2 data-athlete="victor"class="list-item">Victor Thomas</h2>
-          <h2 data-athlete="john"class="list-item">John Guidetti</h2>
-          <!-- <h2 data-athlete="bella"class="list-item">Bella Gulldén</h2>
-          <h2 data-athlete="lucas"class="list-item">Lucas Nilsson</h2> -->
+          <h1 data-athlete="nils" class="list-item">Nils Petterson</h1>
+          <h1 data-athlete="victor"class="list-item">Victor Thomas</h1>
+          <h1 data-athlete="john"class="list-item">John Guidetti</h1>
+          <h1 data-athlete="bella"class="list-item">Bella Gulldén</h1>
+          <h1 data-athlete="lucas"class="list-item">Lucas Nilsson</h1>
           </div>
           <div class="filltext">
           <p>Följ dina favoritatleter på Iplay - Ett socialt näteverk för sportfans och atleter!</p>
@@ -61,17 +64,18 @@ else
         </div>
         <div class="super2">
           <div class="circle">
-            <img class="athlete" data-athlete="john" src="themes/iplay/assets/images/johnguidetti.png">
+            <img class="athlete athlete--active" data-athlete="john" src="themes/iplay/assets/images/johnguidetti.png">
             <img class="athlete" data-athlete="victor" src="themes/iplay/assets/images/victorthomas.png">
-            <div class="icons">
-              <div class="icon">
-                <i class="fab fa-apple "></i>
-              </div>
-              <div class="icon">
-                <i class="fab fa-google-play"></i>
-              </div>
+          </div>
+          <div class="icons">
+            <div class="icon">
+              <i class="fab fa-apple "></i>
+            </div>
+            <div class="icon">
+              <i class="fab fa-google-play"></i>
             </div>
           </div>
+
         </div>
     </div>
     </section>
