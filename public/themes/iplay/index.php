@@ -25,6 +25,12 @@ else
             </div>
             <div class="hero-img herobox">
                 <img src="<?= get_field('hero_img', $post)['url']; ?>" alt="Player <?= $post->post_title; ?>" class="hero_img">
+                <div class="knowphone0">
+                <div class="knowmore0">
+                  <p class="userknow">Vill du veta mer?</p>
+                </div>
+                <img class="greenphone" src="themes/iplay/assets/images/greenphone.svg" alt="">
+              </div>
             </div>
             <div class="hero-phone herobox">
                 <img src="themes/iplay/assets/images/iphone.png" alt="Phone" class="phone">
@@ -107,14 +113,14 @@ else
             <img class="athlete bella" data-athlete="bella" src="themes/iplay/assets/images/bella.png">
             <img class="athlete nils" data-athlete="nils" src="themes/iplay/assets/images/nils.png">
           </div>
-          <div class="icons">
+          <!-- <div class="icons">
             <div class="icon">
               <i class="fab fa-apple "></i>
             </div>
             <div class="icon">
               <i class="fab fa-google-play"></i>
             </div>
-          </div>
+          </div> -->
         </div>
     </div>
     </section>
