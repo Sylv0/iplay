@@ -5,12 +5,11 @@
   background-color: #141617;
   background-position: right;
 
-
   * {
     z-index: 2;
   }
 
-  &>*{
+  & > * {
     display: inline;
   }
 
@@ -23,7 +22,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: info hero phone;
 
-    @include bp(small){
+    @include bp(small) {
       grid-template-columns: 1fr;
       grid-template-rows: 1vh 1vh 1vh;
       grid-template-areas: info hero phone;
@@ -39,7 +38,7 @@
     padding-top: 8rem;
   }
 
-  .hero-img{
+  .hero-img {
     grid: hero;
     display: subgrid;
     grid-template-columns: 1fr;
@@ -55,44 +54,44 @@
     flex-direction: column;
     padding-left: 4rem;
 
-    &>img{
+    & > img {
       width: 10%;
       margin-bottom: 2rem;
     }
 
-    h3{
+    h3 {
       font-size: 3em;
       padding-top: 0;
       margin-top: 0;
 
-      &.dyk{
+      &.dyk {
         color: white;
         margin-bottom: 0;
       }
 
-      &.ison{
-        color: #3BCF7D;
+      &.ison {
+        color: #3bcf7d;
       }
     }
 
-    p{
+    p {
       color: white;
     }
 
-    &>div{
+    & > div {
       margin-top: 2em;
     }
 
     .store-link {
       display: inline-block;
       width: 151px;
-      color: #3BCF7D;
+      color: #3bcf7d;
       text-decoration: none;
       font-weight: bold;
-      border: 2px solid #3BCF7D;
+      border: 2px solid #3bcf7d;
       padding: 1rem;
       margin-left: 1rem;
-      border-radius: .5rem;
+      border-radius: 0.5rem;
       transform: skew(-9.5deg);
       text-align: center;
       i {
@@ -109,11 +108,11 @@
     justify-content: center;
     padding-top: 0;
 
-    img{
+    img {
       position: absolute;
       width: 15rem;
 
-      &.phone-img{
+      &.phone-img {
         width: 14rem;
         z-index: 1;
         border-radius: 48px;
@@ -127,15 +126,28 @@
     z-index: 1;
     margin-bottom: 200px;
   }
-  .knowmore0{
-    background-color: rgba(255,255,255,0.25);
-    height: 48px;
-    width: 181.11px;
-    border: 2px solid #3BCF7D;
-    border-radius: 8px;
-    transform: skew(-9.5deg);
-  }
-  .knowphone0{
+
+  .knowphone0 {
     display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    transform: translate(-50%);
+
+    .knowmore0 {
+      background-color: rgba(255,255,255,0.25);
+      height: 48px;
+      width: 181.11px;
+      border: 2px solid #3bcf7d;
+      border-radius: 8px;
+      transform: skew(-9.5deg);
+
+      .userknow{
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+      }
+    }
   }
 } // END Hero
