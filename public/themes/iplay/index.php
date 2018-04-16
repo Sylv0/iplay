@@ -41,7 +41,7 @@ else
         <div class="users2">
           <div class="">
             <h2 class="iplayfor">Iplay för:</h2>
-            <h1 class="active-user">Atlet</h1>
+            <h1 class="active-user">Atleten</h1>
           </div>
           <div class="hero-image-sub-carousel">
             <img class="hero-image-badge login-img" data-position="1" data-name="Fansen" src="themes/iplay/assets/images/Fan.gif" alt="">
