@@ -10,9 +10,6 @@ elements.forEach(element => element.addEventListener('click', event => {
       var parseDataset = parseInt(child.dataset.position);
       if (parseDataset === 6) { child.dataset.position = 1; }
       else { child.dataset.position = parseInt(child.dataset.position) + 1; }
-      // if (parseDataset === 1) { child.dataset.position = 2; }
-      // else if (parseDataset  === 2) { child.dataset.position = 3; }
-      // else if (parseDataset  === 3) { child.dataset.position = 1; }
     });
   }
 
@@ -21,9 +18,6 @@ elements.forEach(element => element.addEventListener('click', event => {
       var parseDataset = parseInt(child.dataset.position);
       if (parseDataset === 1) { child.dataset.position = 6; }
       else { child.dataset.position -= 1; }
-      // if (parseDataset  === 3) { child.dataset.position = 2; }
-      // else if (parseDataset  === 2) { child.dataset.position = 1; }
-      // else if (parseDataset === 1) { child.dataset.position = 3; }
     });
   }
   document.querySelector('.active-user').innerHTML = document.querySelector('img[data-position="2"]').dataset['name'];
