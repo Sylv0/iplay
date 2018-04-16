@@ -84,7 +84,6 @@ else
           <h1 data-athlete="victor"class="list-item">Victor Thomas</h1>
           <h1 data-athlete="john"class="list-item">John Guidetti</h1>
           <h1 data-athlete="bella"class="list-item">Bella Gulldén</h1>
-          <h1 data-athlete="lucas"class="list-item">Lucas Nilsson</h1>
           </div>
           <div class="filltext">
           <p>Följ dina favoritatleter på Iplay - Ett socialt näteverk för sportfans och atleter!</p>
@@ -95,7 +94,9 @@ else
         <div class="super2">
           <div class="circle">
             <img class="athlete athlete--active" data-athlete="john" src="themes/iplay/assets/images/johnguidetti.png">
-            <img class="athlete" data-athlete="victor" src="themes/iplay/assets/images/victorthomas.png">
+            <img class="athlete victor" data-athlete="victor" src="themes/iplay/assets/images/victorthomas.png">
+            <img class="athlete bella" data-athlete="bella" src="themes/iplay/assets/images/bella.png">
+            <img class="athlete nils" data-athlete="nils" src="themes/iplay/assets/images/nils.png">
           </div>
           <div class="icons">
             <div class="icon">

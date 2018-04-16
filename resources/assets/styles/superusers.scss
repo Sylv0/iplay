@@ -8,23 +8,12 @@
 }
 .supercontainer{
   width: 90%;
-  // height: 80%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  // margin-left: 150px;
-  // align-self: flex-end;
 }
 
 
-// .super0{
-//   width: 5%;
-//   height: 90%;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   flex-direction: row;
-// }
 .super1{
   width: 25%;
   height: auto;
@@ -32,11 +21,13 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: left;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
+
 .super1 h1:hover{
   color: #6ACB84;
 }
+
 .pusers{
   color: #3BCF7D;
   font-size: 24px;
@@ -44,10 +35,12 @@
   font-weight: bold;
   line-height: 24px;
 }
+
 .filltext{
   width: 80%;
   text-align: left;
 }
+
 .filltext p{
   font-size: 16px;
   line-height: 24px;
@@ -58,6 +51,7 @@
   font-weight: bold;
   line-height: 56px;
 }
+
 .super2{
   width: 60%;
   height: auto;
@@ -65,21 +59,21 @@
   justify-content: center;
   align-items: center;
 }
+
 .athlete{
   height: 110%;
   z-index: 5;
   display: none;
 }
+
 .list-item {
   cursor: pointer;
   transition: transform 200ms ease;
 }
+
 .athlete--active { display: block; }
 .list-item:hover { transform: translateY(-3px); }
 .list-item:active { transform: translateY(0); }
-
-.list-item.list-item--active img { border-color: #55a6ff; }
-
 
 .circle{
   border-radius: 50%;
@@ -116,4 +110,16 @@
   font-size: 15px;
   line-height: 1rem;
   margin-left: 1em;
+}
+
+.victor{
+  height: 120vh;
+  margin-top: 120px;
+  margin-right: 50px;
+}
+.bella{
+  height: 115vh;
+  margin-bottom: 100px;
+}
+.nils{
 }
