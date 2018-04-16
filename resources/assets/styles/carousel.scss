@@ -2,7 +2,7 @@
         display: flex;
         align-items: center;
         position: relative;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
         margin-top: 100px;
         margin-right: 150px;
         @include bp(small) {
@@ -17,7 +17,7 @@
           justify-content: center;
           align-items: center;
           opacity: 0;
-          height: 20vh;
+          height: 25vh;
           transition: all 2000ms ease;
         }
         img[data-position]{
