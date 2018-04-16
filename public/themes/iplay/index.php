@@ -40,7 +40,7 @@ else
         </div>
         <div class="users2">
           <div class="">
-            <h2 class="iplayfor">Iplay för:</h2>
+            <h3 class="iplayfor">Iplay för:</h3>
             <h1 class="active-user">Atleten</h1>
           </div>
           <div class="hero-image-sub-carousel">
