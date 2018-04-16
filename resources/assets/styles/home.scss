@@ -19,6 +19,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: info hero phone;
+
+    @include bp(small){
+      grid-template-columns: 1fr;
+      grid-template-rows: 1vh 1vh 1vh;
+      grid-template-areas: info hero phone;
+    }
   }
   .herobox img {
     height: auto;
@@ -107,6 +113,7 @@
       &.phone-img{
         width: 14rem;
         z-index: 1;
+        border-radius: 48px;
       }
     }
   }
