@@ -9,7 +9,8 @@ else
 
 <main>
     <section class="hero">
-        <!-- <div class="sidebar"><div class="line"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line"></div></div> -->
+      <div class="sidebar0"><div class="line2"></div><p>UNITING THE WORLD OF SPORTS</p><div class="line2"></div></div>
+      <div class="scrollindicator0"><div class="scrollline"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="scrollline"></div></div>
         <div class="heroboxcontainer">
             <div class="hero-text herobox">
                 <img src="themes/iplay/assets/images/thumb.svg" alt="">

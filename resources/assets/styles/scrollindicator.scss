@@ -84,3 +84,28 @@
   align-items: center;
   transform: rotate(90deg) translateY(-100%);
 }
+
+.sidebar0{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  left: -10%;
+  top: 50%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  transform: rotate(-90deg);
+}
+
+.scrollindicator0{
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(90deg);
+  position: absolute;
+  right: -10%;
+  top: 50%;
+}
