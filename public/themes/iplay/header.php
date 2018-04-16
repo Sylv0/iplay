@@ -13,7 +13,7 @@
   <header>
     <nav role="navigation">
         <div class="brand">
-            <img src="themes/iplay/assets/images/iplaylogo_white_small.png" alt="Logo">
+            <img src="themes/iplay/assets/images/IplayLogo.svg" alt="Logo">
         </div>
         <ul class="links">
             <li><a href="">Home</a></li>

@@ -76,7 +76,7 @@ else
     </section>
     <section class="cta">
       <div class="addpic">
-        <img src="themes/iplay/assets/images/iplaylogo_white_small.png" alt="">
+        <img src="themes/iplay/assets/images/IplayLogo.svg" alt="">
         <h2 class="loveidrott">Sociala medier för dig som<br> verkligen älskar idrott!</h2>
         <div class="icons1">
         <div class="knowmore1">
