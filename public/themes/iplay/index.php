@@ -43,9 +43,12 @@ else
             <h2>Iplay för:</h2>
           </div>
           <div class="hero-image-sub-carousel">
-            <img class="hero-image-badge login-img" data-position="1" src="themes/iplay/assets/images/swipegubbe.svg" alt="">
-            <img class="hero-image-badge profile-img" data-position="2" src="themes/iplay/assets/images/swipegubbe.svg" alt="">
-            <img class="hero-image-badge post-img" data-position="3" src="themes/iplay/assets/images/swipegubbe.svg" alt="">
+            <img class="hero-image-badge login-img" data-position="1" src="themes/iplay/assets/images/Fan.gif" alt="">
+            <img class="hero-image-badge profile-img" data-position="2" src="themes/iplay/assets/images/Atlet.gif" alt="">
+            <img class="hero-image-badge post-img" data-position="3" src="themes/iplay/assets/images/Team.gif" alt="">
+            <img class="hero-image-badge post-img" data-position="4" src="themes/iplay/assets/images/Coach.gif" alt="">
+            <img class="hero-image-badge post-img" data-position="5" src="themes/iplay/assets/images/Domare.gif" alt="">
+            <img class="hero-image-badge post-img" data-position="6" src="themes/iplay/assets/images/Agent.gif" alt="">
         </div>
           <div class="knowphone">
           <div class="knowmore2">
