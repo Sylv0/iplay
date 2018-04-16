@@ -14,6 +14,10 @@ nav {
     font-family: 'Font Awesome Brands';
   }
 
+  @include bp(small){
+    display: none;
+  }
+
   ul.links {
     display: flex;
     align-items: center;
