@@ -1,5 +1,5 @@
 .superusers{
-  height: 90vh;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -14,7 +14,6 @@
 
 .super1{
   width: 25%;
-  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,7 +50,6 @@
 
 .super2{
   width: 60%;
-  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
