@@ -95,7 +95,7 @@ else
         <div class="super1">
           <p class="pusers">Super users</p>
           <div class="headathletes">
-          <h1 data-athlete="nils" class="list-item">Nils Petterson</h1>
+          <h1 data-athlete="nils" class="list-item">Niklas Ekberg</h1>
           <h1 data-athlete="victor"class="list-item">Victor Thomas</h1>
           <h1 data-athlete="john"class="list-item">John Guidetti</h1>
           <h1 data-athlete="bella"class="list-item">Bella Gulldén</h1>
