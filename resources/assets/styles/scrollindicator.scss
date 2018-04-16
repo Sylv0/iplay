@@ -15,6 +15,10 @@
   position: absolute;
   right: -10%;
   top: 150%;
+
+  @include bp(small){
+    display: none;
+  }
 }
 .dot{
   margin-left: 6px;
@@ -56,6 +60,10 @@
   align-items: center;
   flex-direction: row;
   transform: rotate(-90deg);
+
+  @include bp(small){
+    display: none;
+  }
 }
 
 .sidebar1{
@@ -70,6 +78,10 @@
   align-items: center;
   flex-direction: row;
   transform: rotate(-90deg);
+
+  @include bp(small){
+    display: none;
+  }
 }
 .line{
   width: 100px;
@@ -97,6 +109,10 @@
   align-items: center;
   flex-direction: row;
   transform: rotate(-90deg);
+
+  @include bp(small){
+    display: none;
+  }
 }
 
 .scrollindicator0{
@@ -108,12 +124,20 @@
   position: absolute;
   right: -10%;
   top: 50%;
+
+  @include bp(small){
+    display: none;
+  }
 }
 
 .scrollline0 {
   width: 211px;
   height: 1px;
   background-color: white;
+
+  @include bp(small){
+    display: none;
+  }
 }
 
 .dot0{

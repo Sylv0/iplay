@@ -24,8 +24,8 @@
 
     @include bp(small) {
       grid-template-columns: 1fr;
-      grid-template-rows: 1vh 1vh 1vh;
-      grid-template-areas: info hero phone;
+      grid-template-rows: 45vh 45vh;
+      grid-template-areas: hero info;
     }
   }
   .herobox img {
@@ -40,12 +40,20 @@
 
   .hero-img {
     grid: hero;
-    display: subgrid;
-    grid-template-columns: 1fr;
+
+    @include bp(small){
+      padding-top: 0;
+    }
   }
 
   .hero-img img {
     justify-items: end;
+
+    @include bp(small){
+      margin: auto;
+      width: 100%;
+      z-index: 1;
+    }
   }
 
   .hero-text {
@@ -77,6 +85,10 @@
     p {
       color: white;
       margin-top: 0;
+
+    @include bp(small){
+      display: none;
+    }
     }
 
     & > div {
@@ -118,6 +130,9 @@
         z-index: 1;
         border-radius: 48px;
       }
+    }
+    @include bp(small){
+      display: none;
     }
   }
 
