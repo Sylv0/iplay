@@ -49,9 +49,9 @@ else
           <div class="">
             <h3 class="iplayfor">Iplay för:</h3>
             <div class="arrowcontainer">
-              <i class="fa fa-arrow-circle-left"></i>
+              <i class="fa fa-arrow-circle-left" data-position="3"></i>
               <h1 class="active-user">Atleten</h1>
-              <i class="fa fa-arrow-circle-right"></i>
+              <i class="fa fa-arrow-circle-right" data-position="1"></i>
             </div>
           </div>
           <div class="hero-image-sub-carousel">
