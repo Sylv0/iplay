@@ -1,5 +1,5 @@
 .superusers{
-  height: 90%;
+  height: 90vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -62,7 +62,6 @@
 
 .athlete{
   height: 110%;
-  z-index: 5;
   display: none;
 }
 
@@ -118,7 +117,7 @@
   margin-right: 50px;
 }
 .bella{
-  height: 115vh;
+  height: 130%;
   margin-bottom: 100px;
 }
 .nils{
