@@ -16,9 +16,9 @@
 
   .heroboxcontainer {
     height: 100%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    // width: 80%;
+    margin-left: 80px;
+    margin-right: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: info hero phone;
