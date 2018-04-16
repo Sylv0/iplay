@@ -26,8 +26,5 @@ elements.forEach(element => element.addEventListener('click', event => {
       // else if (parseDataset === 1) { child.dataset.position = 3; }
     });
   }
-  console.log(document.querySelector('.active-user').innerHTML = document.querySelector('[data-position="1"]')
-  .getAttribute('src')
-  .match(/\/([\w]*).gif/g));
-  document.querySelector('.active-user').innerHTML = document.querySelector('img[data-position="2"]').getAttribute('src').match(/\/(\b[\w]*\b).gif/g);
+  document.querySelector('.active-user').innerHTML = document.querySelector('img[data-position="2"]').getAttribute('src').match(/\/([\w]*).gif/)[1];
 }));
