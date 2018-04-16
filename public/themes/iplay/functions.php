@@ -88,3 +88,11 @@ function my_acf_add_local_field_groups() {
 }
 
 add_action('init', 'my_acf_add_local_field_groups');
+
+function custom_loginlogo() {
+    echo
+        '<style type="text/css">
+            h1 a {background-image: url('.get_bloginfo('template_directory').'/assets/images/iplaylogo_black_small.png) !important; }
+        </style>';
+}
+add_action('login_head', 'custom_loginlogo');
