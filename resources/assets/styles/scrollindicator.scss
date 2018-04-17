@@ -6,6 +6,10 @@
   position: absolute;
   right: -10%;
   top: 349.5%;
+
+  @include bp(small){
+    display: none;
+  }
 }
 .scrollindicator1{
   display: flex;
