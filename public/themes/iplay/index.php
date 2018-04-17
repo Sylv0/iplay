@@ -55,12 +55,12 @@ else
             </div>
           </div>
           <div class="hero-image-sub-carousel">
-            <img class="hero-image-badge login-img" data-position="1" data-name="Fansen" src="themes/iplay/assets/images/Fan.gif" alt="">
-            <img class="hero-image-badge profile-img" data-position="2" data-name="Atleten" src="themes/iplay/assets/images/Atlet.gif" alt="">
-            <img class="hero-image-badge post-img" data-position="3" data-name="Laget" src="themes/iplay/assets/images/Team.gif" alt="">
-            <img class="hero-image-badge post-img" data-position="4" data-name="Tränaren" src="themes/iplay/assets/images/Coach.gif" alt="">
-            <img class="hero-image-badge post-img" data-position="5" data-name="Domaren" src="themes/iplay/assets/images/Domare.gif" alt="">
-            <img class="hero-image-badge post-img" data-position="6" data-name="Agenten" src="themes/iplay/assets/images/Agent.gif" alt="">
+            <img class="hero-image-badge login-img" data-position="1" data-name="fansen" src="themes/iplay/assets/images/Fan.gif" alt="">
+            <img class="hero-image-badge profile-img" data-position="2" data-name="atleten" src="themes/iplay/assets/images/Atlet.gif" alt="">
+            <img class="hero-image-badge post-img" data-position="3" data-name="laget" src="themes/iplay/assets/images/Team.gif" alt="">
+            <img class="hero-image-badge post-img" data-position="4" data-name="tränaren" src="themes/iplay/assets/images/Coach.gif" alt="">
+            <img class="hero-image-badge post-img" data-position="5" data-name="domaren" src="themes/iplay/assets/images/Domare.gif" alt="">
+            <img class="hero-image-badge post-img" data-position="6" data-name="agenten" src="themes/iplay/assets/images/Agent.gif" alt="">
         </div>
           <div class="knowphone">
           <div class="knowmore2">
@@ -70,7 +70,7 @@ else
         </div>
         </div>
         <div class="users3">
-          <h2>Följ dina favoritatleter på Iplay redan idag!</h2><p>Ett socialt nätverk för sportfans och professionella atleter! Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
+          <p>För dig som är atlet erbjuder Iplay dig att bli upptäckt, få kontakt med klubbar & sportföreningar. Du får också ta del av erbjudanden kring tjänster som jobb, utbildning, försäkringar, juidisk hjälp, mentala coacher och PT´s. Du kommer synas mer för dina fans och sponsorer.</p>
         </div>
       </div>
     </section>
