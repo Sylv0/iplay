@@ -14,8 +14,8 @@ else
         <div class="heroboxcontainer">
             <div class="hero-text herobox">
                 <img src="themes/iplay/assets/images/thumb.svg" alt="">
-                <h3 class="dyk">Visste du att:</h3>
-                <h3 class="ison"><?php echo $post->post_title ?> finns på Iplay?</h3>
+                <h1 class="dyk h1-iplay">Visste du att:</h1>
+                <h1 class="ison h1-iplay"><?php echo $post->post_title ?> finns på Iplay?</h1>
                 <p>Följ dina favoritatleter på Iplay — Ett socialt nätverk för sportfans och professionella atleter!</p>
                 <p>Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
                 <div>
@@ -43,14 +43,14 @@ else
       <div class="scrollindicator1"><div class="scrollline"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="scrollline"></div></div>
       <div class="userscontainer">
         <div class="users1">
-          <h2>Följ dina favoritatleter på Iplay redan idag!</h2><p>Ett socialt nätverk för sportfans och professionella atleter! Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
+          <h4 class="h4-iplay">Följ dina favoritatleter på Iplay redan idag!</h4><p>Ett socialt nätverk för sportfans och professionella atleter! Ladda ner appen till din smartphone för att hitta din favoritatlet, din coach eller ditt lag på Iplay!</p>
         </div>
         <div class="users2">
           <div class="">
-            <h3 class="iplayfor">Iplay för:</h3>
+            <h3 class="iplayfor h3-iplay">Iplay för:</h3>
             <div class="arrowcontainer">
               <i class="fa fa-arrow-circle-left" data-position="3"></i>
-              <h1 class="active-user">Atleten</h1>
+              <h2 class="active-user h2-iplay">Atleten</h2>
               <i class="fa fa-arrow-circle-right" data-position="1"></i>
             </div>
           </div>
@@ -93,12 +93,12 @@ else
       <div class="scrollindicator"><div class="scrollline"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="scrollline"></div></div>
       <div class="supercontainer">
         <div class="super1">
-          <p class="pusers">Super users</p>
+          <h4 class="pusers h4-iplay">Super users</h4>
           <div class="headathletes">
-          <h1 data-athlete="nils" class="list-item">Niklas Ekberg</h1>
-          <h1 data-athlete="victor"class="list-item">Victor Thomas</h1>
-          <h1 data-athlete="john"class="list-item">John Guidetti</h1>
-          <h1 data-athlete="bella"class="list-item">Bella Gulldén</h1>
+          <h1 data-athlete="nils" class="list-item h1-iplay">Niklas Ekberg</h1>
+          <h1 data-athlete="victor"class="list-item h1-iplay">Victor Thomas</h1>
+          <h1 data-athlete="john"class="list-item h1-iplay">John Guidetti</h1>
+          <h1 data-athlete="bella"class="list-item h1-iplay">Bella Gulldén</h1>
           </div>
           <div class="filltext">
           <p>Följ dina favoritatleter på Iplay - Ett socialt näteverk för sportfans och atleter!</p>

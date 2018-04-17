@@ -1,31 +1,64 @@
 /* WordPlate */
 
 @font-face {
-  font-family: 'Font Awesome Brands';
-  src: url('../fonts/FontAwesomeBrand.otf') format('woff'), /* Pretty Modern Browsers */
+  font-family: "Helvetica Neue"; /* Pretty Modern Browsers */
+  src: url(HelveticaNeue-01.ttf) format("ttf");
 }
 
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('../fonts/Helvetica Neue.woff') format('woff'), /* Pretty Modern Browsers */
+  font-family: "Helvetica Neue"; /* Pretty Modern Browsers */
+  src: url(HelveticaNeue-Bold-02.ttf) format("ttf");
+  font-weight: bold;
 }
-@import 'mixins/mixins.scss';
-@import 'node_modules/sanitize.css/sanitize';
-@import 'home.scss';
-@import 'users.scss';
-@import 'cta.scss';
-@import 'superusers.scss';
-@import 'navbar.scss';
-@import 'footer.scss';
-@import 'scrollindicator.scss';
-@import 'carousel.scss';
-*{
-  font-family: "Helvetica Neue";
 
+@font-face {
+  font-family: "Helvetica Neue"; /* Pretty Modern Browsers */
+  src: url(HelveticaNeue-BoldItalic-04.ttf) format("ttf");
+  font-weight: bold;
+  font-style: italic;
 }
-body{
+
+@import "mixins/mixins.scss";
+@import "node_modules/sanitize.css/sanitize";
+@import "home.scss";
+@import "users.scss";
+@import "cta.scss";
+@import "superusers.scss";
+@import "navbar.scss";
+@import "footer.scss";
+@import "scrollindicator.scss";
+@import "carousel.scss";
+* {
+  font-family: "Helvetica Neue";
+}
+body {
   min-height: 100vh;
   main {
     height: 100vh;
   }
+}
+
+.h1-iplay {
+  font-size: 48px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 56px;
+}
+.h2-iplay {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 48px;
+}
+.h3-iplay {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 40px;
+}
+.h4-iplay {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 32px;
 }
