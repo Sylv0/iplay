@@ -16,12 +16,11 @@
             <img src="themes/iplay/assets/images/IplayLogo.svg" alt="Logo">
         </div>
         <ul class="links">
-            <li><a href="">Home</a></li>
-            <li><a href="">Aboot</a></li>
+            <li><a href="">Hem</a></li>
+            <li><a href="">Om oss</a></li>
             <li><a href="">Super Users</a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">Get the App</a></li>
-            <li><a href="">Super Users</a></li>
+            <li><a href="">Nyheter</a></li>
+            <li><a href="">Ladda ner app</a></li>
         </ul>
         <div class="burger">
             <span></span>
