@@ -1,18 +1,18 @@
 /* WordPlate */
 
 @font-face {
-  font-family: "Helvetica Neue"; /* Pretty Modern Browsers */
+  font-family: HelveticaNeue; /* Pretty Modern Browsers */
   src: url(HelveticaNeue-01.ttf) format("ttf");
 }
 
 @font-face {
-  font-family: "Helvetica Neue"; /* Pretty Modern Browsers */
+  font-family: HelveticaNeue; /* Pretty Modern Browsers */
   src: url(HelveticaNeue-Bold-02.ttf) format("ttf");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "Helvetica Neue"; /* Pretty Modern Browsers */
+  font-family: HelveticaNeue; /* Pretty Modern Browsers */
   src: url(HelveticaNeue-BoldItalic-04.ttf) format("ttf");
   font-weight: bold;
   font-style: italic;
@@ -29,7 +29,7 @@
 @import "scrollindicator.scss";
 @import "carousel.scss";
 * {
-  font-family: "Helvetica Neue";
+  font-family: HelveticaNeue;
 }
 body {
   min-height: 100vh;
