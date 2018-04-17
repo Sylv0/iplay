@@ -5,6 +5,11 @@
   background-color: #141617;
   background-position: right;
 
+  @include bp(small){
+    background-size: cover;
+    background-position: left;
+  }
+
   * {
     z-index: 2;
   }
@@ -170,6 +175,10 @@
     left: 50%;
     transform: translate(-50%);
 
+    @include bp(small){
+
+    }
+
     .knowmore0 {
       background-color: rgba(255, 255, 255, 0.25);
       height: 48px;
@@ -177,6 +186,10 @@
       border: 2px solid #3bcf7d;
       border-radius: 8px;
       transform: skew(-9.5deg);
+
+      @include bp(small){
+        font-size: 1em;
+      }
 
       .userknow {
         color: white;
