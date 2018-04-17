@@ -1,3 +1,17 @@
 # IPlay
 
-A website build with Wordpress and Wordplate to make an site that is easy to admin and change conent
+A project using Wordplate to build a website for Iplay.
+
+## Installation
+### Prerequisites
+Composer, NPM, PHP, some database
+
+### Steps
+1. Clone or download project to desired location.
+2. Navigate to project root and run `composer install` and `npm install`
+3. Configure .env with correct database
+4. Start PHP server in public-folder.
+
+
+## How to use
+Not much to do yet, add some heros in WP-admin and check the frontpage.
