@@ -8,7 +8,7 @@ Composer, NPM, PHP, some database
 
 ### Steps
 1. Clone or download project to desired location.
-2. Navigate to project root and run `composer install` and `npm install`
+2. Navigate to project root and run `composer install`, `npm install` and finally `npm run dev` or `npm run watch`.
 3. Configure .env with correct database
 4. Start PHP server in public-folder.
 
